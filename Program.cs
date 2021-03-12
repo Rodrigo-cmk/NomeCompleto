@@ -7,10 +7,6 @@ namespace NomeCompleto
         static void Main(string[] args)
         {
 
-
-
-
-           
            string nome; 
            string sobrenome;
            string nomeCatalogo;
@@ -36,21 +32,14 @@ namespace NomeCompleto
 
            
            nomeCompleto = $"{nome} {sobrenome}";
-           nomeCatalogo = $"{sobrenome.ToUpper()} {nome}";
+           nomeCatalogo = $"{sobrenome.ToUpper()}, {nome}";
            Console.WriteLine();
 
            Console.WriteLine();
            Console.ForegroundColor=ConsoleColor.DarkYellow;
            Console.WriteLine($"Nome Completo: {nomeCompleto}");
            Console.WriteLine($"Nome de Catálogo: {nomeCatalogo}");
-           Console.ForegroundColor=ConsoleColor.White;
-
-
-
-
-
-
-
+           Console.ResetColor();
         }
     }
 }
