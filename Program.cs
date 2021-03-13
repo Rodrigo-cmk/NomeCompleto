@@ -25,14 +25,14 @@ namespace NomeCompleto
            Console.WriteLine("Por favor digite seu primeiro nome:");
            Console.ForegroundColor=ConsoleColor.DarkYellow;
            nome = Console.ReadLine(); 
-           Console.ForegroundColor=ConsoleColor.White;
+           Console.ResetColor();
 
 
            Console.WriteLine();
            Console.WriteLine("Por favor digite seu sobrenome:");
            Console.ForegroundColor=ConsoleColor.DarkYellow;
            sobrenome = Console.ReadLine();
-           Console.ForegroundColor=ConsoleColor.White;
+           Console.ResetColor();
 
            
            nomeCompleto = $"{nome} {sobrenome}";
@@ -43,7 +43,7 @@ namespace NomeCompleto
            Console.ForegroundColor=ConsoleColor.DarkYellow;
            Console.WriteLine($"Nome Completo: {nomeCompleto}");
            Console.WriteLine($"Nome de Catálogo: {nomeCatalogo}");
-           Console.ForegroundColor=ConsoleColor.White;
+           Console.ResetColor();
 
 
 
