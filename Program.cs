@@ -36,7 +36,7 @@ namespace NomeCompleto
 
            
            nomeCompleto = $"{nome} {sobrenome}";
-           nomeCatalogo = $"{sobrenome.ToUpper()} {nome}";
+           nomeCatalogo = $"{sobrenome.ToUpper()}, {nome}";
            Console.WriteLine();
 
            Console.WriteLine();
